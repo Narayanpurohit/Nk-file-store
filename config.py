@@ -28,9 +28,6 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Rename_1by1_robot")
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002029287584"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
-#shortner
-SHORTLINK_DOMAIN = os.environ.get('SHORTLINK_DOMAIN', "MoneyKamalo.com")
-SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
 
 # start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
@@ -52,9 +49,6 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 
 # Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
-
-# Image URL for lazy loading
-LAZY_PIC = "https://graph.org/file/0fff9567e54efc6cc87a4.jpg"
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
